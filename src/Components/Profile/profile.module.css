@@ -1,0 +1,36 @@
+.description {
+  justify-content: center;
+  text-align: center;
+}
+.stats {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+.profile {
+  margin: auto;
+
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+  width: 200px;
+  background-color: rgb(170, 17, 17);
+}
+.avatar {
+  display: inline-block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.stats_list {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.stats_list:last-child {
+  margin-bottom: 0;
+}
