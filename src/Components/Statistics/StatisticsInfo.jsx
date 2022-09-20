@@ -4,8 +4,8 @@ import css from "./statistics.module.css";
 export const StatisticsInfo = ({ label, percentage }) => {
   return (
     <li className={css.item}>
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+      <span className={css.label}>{label}</span>
+      <span className={css.percentage}>{percentage}</span>
     </li>
   );
 };
