@@ -1,6 +1,7 @@
 .description {
   justify-content: center;
   text-align: center;
+  
 }
 .stats {
   display: flex;
@@ -8,23 +9,29 @@
   justify-content: center;
   padding-left: 0;
   list-style: none;
+  background-color: rgba(248, 244, 244, 0.74);
 }
 
 .profile {
   margin: auto;
-
+margin-bottom: 20px;
+margin-top: 20px;
   border-radius: 20px;
   text-align: center;
   justify-content: center;
-  padding: 50px;
+  padding: 25px;
   width: 200px;
-  background-color: rgb(170, 17, 17);
+  background-color: rgba(180, 144, 144, 0.74);
 }
 .avatar {
   display: inline-block;
   border-radius: 50%;
   width: 100px;
   height: 100px;
+}
+
+.profile_stats{
+  background-color: rgba(248, 244, 244, 0.74);
 }
 .stats_list {
   margin-right: 10px;

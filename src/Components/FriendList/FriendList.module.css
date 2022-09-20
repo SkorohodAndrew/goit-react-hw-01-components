@@ -1,0 +1,27 @@
+.friend_list {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.item{
+  list-style: none;
+}
+
+.status {
+  position: absolute;
+  right: 850px; 
+  padding: 8px 8px;
+  border-radius: 50%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.true {
+  background-color: green;
+}
+
+
+.false {
+  background-color: red;
+}

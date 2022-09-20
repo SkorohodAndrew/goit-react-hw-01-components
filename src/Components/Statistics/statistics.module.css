@@ -1,0 +1,24 @@
+.statistics {
+    margin: auto;
+
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    width: 300px;
+    background-color: rgba(180, 144, 144, 0.74);
+}
+
+
+.stat_list{
+display: inline-flex;
+padding: 0;
+}
+
+.item {
+    list-style: none;
+    margin-right: 10px;
+}
+.stats_list:last-child {
+    margin-bottom: 0;
+}
