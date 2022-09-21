@@ -5,7 +5,7 @@ export const FriendListData = ({ avatar, name, isOnline }) => {
   return (
     <ul className="item">
       <li className={css.item}>
-        <span className={`${css.status} ${css[isOnline]}`}>{isOnline}</span>
+        <span className={`${css.status} ${css[isOnline]}`}></span>
         <img className="avatar" src={avatar} alt="User avatar" width="48" />
         <p className="name">{name}</p>
       </li>
